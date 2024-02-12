@@ -64,6 +64,8 @@ SELECT
     COALESCE(INDEPYEAR, GNPOLD, LOCALNAME)
 FROM COUNTRY;
 
+# FUNCION CASE
+# La sentencia CASe recorre las condiciones y devuelve un valor cuando le cumple la primera condición(como sentencia IF-THEN-ELSE). Así una vez se cumple la sentencia devuelve el valor y termina de recorrer.
 SELECT
 	NAME,
     POPULATION,
