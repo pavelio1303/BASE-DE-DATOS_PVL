@@ -53,7 +53,4 @@ public class CountryController {
         // Llama al método getCountryListWithPagination() de MyCountryModel para obtener una lista paginada de países.
         return MyCountryModel.getCountryListWithPagination(pageNumber*pageSize, pageSize);
     }
-
-    @GetMapping
-    public 
 }
